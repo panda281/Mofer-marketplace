@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.form__inline{
+  display: flex;
+}
+.form_street{
+  margin-right:5px; 
+}
+.form_kebele{
+  margin-left: 5px;
+}

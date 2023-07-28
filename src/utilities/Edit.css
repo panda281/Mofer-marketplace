@@ -1,0 +1,31 @@
+.EditProduct {
+    display: flex;
+    justify-content: center;
+}
+
+.EditProduct form {
+    width: 100%;
+}
+
+.EditProduct .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.EditProduct .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.EditProduct img {
+    margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+    .EditProduct .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

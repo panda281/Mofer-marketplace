@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+body {
+    font-family: 'Josefin Sans', cursive;
+}
+.card {
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight:normal;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #666;
+}
+
+.card-img-top {
+    border-radius: 8px 8px 0 0;
+}
+
+.card-footer {
+    border-top: 1px solid #d1d1d1;
+    padding: 0.5rem;
+}
+
+.btn-delete {
+    color: white;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-delete:hover {
+    color: white;
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-update {
+    color: white;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-update:hover {
+    color: white;
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #d1d1d1;
+    padding: 1rem;
+}
+
+.modal-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #d1d1d1;
+    padding: 0.5rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #80bdff;
+}
+
+.form-control:disabled {
+    background-color: #f8f9fa;
+    opacity: 1;
+}
+
+.btn-submit {
+    margin-top: 10px;
+    color: white;
+    background-color: #094911;
+    border-color: #0b5701;
+}
+
+.btn-submit:hover {
+    color: white;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
